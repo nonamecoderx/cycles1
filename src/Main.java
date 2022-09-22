@@ -5,7 +5,7 @@ public class Main {
         for (int i = 1; i <= 12; i++) {
             total = total + total/100;
             total = total + salary;
-            System.out.println("Месяц "+ i + " сумма " + total);
+            System.out.println("Месяц "+ i + " сумма - " + total);
         }
     }
 }
