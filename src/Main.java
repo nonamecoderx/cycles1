@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            System.out.println("Итерация цикла " + i);
+        for (int i = 1; i <= 512; i = i * 2) {
+            System.out.println(i);
         }
     }
 }
